@@ -1,0 +1,15 @@
+.columns {
+  width: 100%;
+  height: min(100% -30px, );
+  /* Magic here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+ 
+}
